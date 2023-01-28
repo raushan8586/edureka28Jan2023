@@ -1,0 +1,51 @@
+Muted. Unmute when you should ask questions
+Raise of Hands
+
+I am loud and clear for everyone. 
+On audio issues, pls fix the issue at your end. Try re-joining!
+
+No IT working experience --> Freshers --> Non-IT --> 20%
+IT experienced --> No/Moderate Devops experience --> 70%
+
+Scratch
+
+pre-requisites
+---------------
+(Must)--> Cloud Experience (AWS/Azure/GCP) --> 
+EC2, VPC, Storage, IAM, IPs
+
+(Must)--> Linux Commands --> Directory Navigation, Permisssions, Vi, cp, mv
+
+(Excel)***Python
+
+---------------------------------------
+DevOps --> Java --> Automation
+Git/GitHub
+
+DevOps Course
+-------------
+1. DevOps Overview
+2. Git/GitHub
+3. Jenkins --> Integration tool
+4-5. Maven, Integrate Git with Maven
+6-7. Micro-Services, Docker, dockerfile, docker-compose
+8-9. Kubernetes --> pods, services, rs, deployment, volumes
+10. Monitoring (Prometheus and Grafana)
+11. Terraform --> Automate Infrastructure Provisioning
+12. Ansible --> Automate Confifuration Management tool
+
+
+Automation Engineer --> Selenium (Functional Automation Testing -- UI)
+Support Engineer
+
+DevOps Engineer
+
+Monolithic Vs MicroServices
+
+
+
+
+
+
+
+
