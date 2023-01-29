@@ -1,0 +1,109 @@
+root@ip-172-31-44-182:~/project1# history
+    1  apt update -y
+    2  clear
+    3  git version
+    4  ls -l
+    5  pwd
+    6  mkdir project1
+    7  cd project1/
+    8  ls -l
+    9  cd ..
+   10  git clone https://github.com/raushan8586/edureka28Jan2023.git
+   11  ls -l
+   12  cd edureka28Jan2023/
+   13  ls -l
+   14  ls -la
+   15  pwd
+   16  cd ..
+   17  ls -l
+   18  cd project1/
+   19  pwd
+   20  ls -la
+   21  pwd
+   22  git init
+   23  ls -la
+   24  clear
+   25  touch file1
+   26  vi file1
+   27  git status
+   28  cd ..
+   29  mkdir project2
+   30  cd project
+   31  cd project2
+   32  git init
+   33  git status
+   34  cd ..
+   35  cd project1
+   36  ls -l
+   37  clear
+   38  git status
+   39  ls -l
+   40  pwd
+   41  git ls-files
+   42  git status
+   43  git add file1
+   44  ls -l
+   45  git ls-files
+   46  git status
+   47  git commit -m "1st commit"
+   48  git status
+   49  ls -l
+   50  git ls-files
+   51  git remote add origin https://github.com/raushan8586/edureka-repo.git
+   52  git branch
+   53  git remote -v
+   54  git log
+   55  git push origin master
+   56  cd ...
+   57  ls -l
+   58  cd ..
+   59  ls -l
+   60  cd edureka28Jan2023/
+   61  ls -l
+   62  git remote -v
+   63  cd ..
+   64  cd project1
+   65  ls -l
+   66  cd ..
+   67  cd project
+   68  cd project2
+   69  ls -l
+   70  clear
+   71  ls -la
+   72  git remote -v
+   73  cd ..
+   74  ls -l
+   75  cd project1
+   76  ls -l
+   77  git branch
+   78  git branch b1 master
+   79  git branch
+   80  git checkout b1
+   81  git branch
+   82  git ls-files
+   83  git log
+   84  touch new-enhancement
+   85  vi new-enhancement
+   86  ls -l
+   87  git ls-files
+   88  git status
+   89  git add new-enhancement
+   90  ls -l
+   91  git status
+   92  git ls-files
+   93  git commit -m "b1_1st-commit"
+   94  clear
+   95  ls -l
+   96  git ls-files
+   97  git status
+   98  git log
+   99  git checout master
+  100  git checkout master
+  101  git log
+  102  git branch
+  103  git merge b1 master
+  104  git log
+  105  git push origin b1
+  106  git push origin master
+  107  git branch
+  108  history
