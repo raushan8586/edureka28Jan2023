@@ -107,3 +107,374 @@ root@ip-172-31-44-182:~/project1# history
   106  git push origin master
   107  git branch
   108  history
+root@ip-172-31-33-202:~/edureka-repo# history
+    1  apt update -y
+    2  clear
+    3  git --version
+    4  mkdir project1
+    5  cd project1/
+    6  pwd
+    7  ls -l
+    8  ls -la
+    9  git init
+   10  ls -la
+   11  clear
+   12  git status
+   13  pwd
+   14  cd .git
+   15  ls -l
+   16  cd braches
+   17  cd branches
+   18  ls -l
+   19  cd ..
+   20  clear
+   21  ls -la
+   22  git status
+   23  touch file1
+   24  vi file1
+   25  cat file1
+   26  pwd
+   27  ls -l
+   28  git ls-files
+   29  git status
+   30  git add file1
+   31  ls -l
+   32  git ls-files
+   33  git status
+   34  git commit -m "1st commit"
+   35  ls -l
+   36  git ls-files
+   37  git status
+   38  clear
+   39  touch file2
+   40  vi file2
+   41  ls -l
+   42  git ls-files
+   43  git status
+   44  git add file2
+   45  ls -l
+   46  git ls-files
+   47  git status
+   48  git commit -m "2nd commit"
+   49  ls -l
+   50  git ls-files
+   51  git status
+   52  clear
+   53  git remote -v
+   54  git remote add origin https://github.com/raushan8586/git-push-demo.git
+   55  git remote -v
+   56  git branch
+   57  git log
+   58  git log --oneline
+   59  git show 463c799d86cb477373c243af7bc9538941deba10
+   60  git show c9e6891dd9cc6a7b86492a42ed284e56501ff27d
+   61  git push origin master
+   62  vi file1
+   63  git status
+   64  git commit -a -m "3rd_commit"
+   65  git status
+   66  git log
+   67  git show f892130b9c7e6c0541b6723e69aaf7944ad6489c
+   68  history
+   69  ls -l
+   70  cd project1/
+   71  ls -l
+   72  git log
+   73  git log --oneline
+   74  git branch
+   75  ls -l
+   76  git ls-files
+   77  git branch
+   78  git branch branch1 master
+   79  git branch
+   80  ls -l
+   81  git checkout branch1
+   82  git branch
+   83  git log --oneline
+   84  git ls-files
+   85  touch branch1_file3
+   86  vi branch1_file3
+   87  git status
+   88  git checkout master
+   89  git status
+   90  git checkout branch1
+   91  clear
+   92  ls -l
+   93  git status
+   94  git add .
+   95  git status
+   96  git commit -m "branch1_1st-commit"
+   97  git log --oneline
+   98  git checkout master
+   99  git log --oneline
+  100  git merge branch1 master
+  101  git log --oneline
+  102  git ls-files
+  103  git status
+  104  git remote -v
+  105  git push origin branch1
+  106  git push origin master
+  107  git branch
+  108  git checkout -b branch2 master
+  109  git branch
+  110  git log --oneline
+  111  git checkout master
+  112  git branch
+  113  ls -l
+  114  git ls-files
+  115  touch application.log
+  116  touch my-file.txt
+  117  vi application.log
+  118  vi my-file.txt
+  119  git status
+  120  touch file3
+  121  vi file3
+  122  git status
+  123  ls -la
+  124  touch .gitignore
+  125  touch .gitignore
+  126  ls -la
+  127  vi .gitignore
+  128  git status
+  129  git add .
+  130  git commit -m "file3_gitignore-added"
+  131  git status
+  132  ls -l
+  133  git log --oneline
+  134  vi .gitignore
+  135  vi application.log
+  136  git status
+  137  git log --oneline
+  138  touch file4
+  139  vi file4
+  140  git status
+  141  git add .
+  142  git commit -m "file4-added"
+  143  git log --oneline
+  144  git show bf90625
+  145  git log --oneline
+  146  git revert bf90625
+  147  git log --oneline
+  148  ls -l
+  149  git ls-files
+  150  git branch
+  151  git log --oneline
+  152  ls -l
+  153  git checkout branch1
+  154  ls -l
+  155  pwd
+  156  git checkout master
+  157  ls -l
+  158  pwd
+  159  git status
+  160  git log --oneline
+  161  git revert 7b1bf46
+  162  ls -l
+  163  git log --oneline
+  164  apt update -y
+  165  clear
+  166  mkdir edureka
+  167  cd edureka/
+  168  git remote -v
+  169  git init
+  170  touch sample1
+  171  vi sample1
+  172  git status
+  173  git add .
+  174  git commit -m "1st commit"
+  175  cd ..
+  176  git clone https://github.com/raushan8586/edureka-repo.git
+  177  ls -l
+  178  cd edureka-repo
+  179  git log --oneline
+  180  git branch
+  181  git branch -a
+  182  git remote -v
+  183  git branch
+  184  git checkout b1
+  185  git branch
+  186  git log --oneline
+  187  git checkout master
+  188  git log --oneline
+  189  git checkout -b b2 master
+  190  git branch
+  191  git log
+  192  git show d903a87a07b6aac177eb564c42d0358044c4fd6c
+  193  git show a01d77b74f1d587c199cd45db039e3d80b8fd5b7
+  194  git branch
+  195  git checkout master
+  196  clear
+  197  pwd
+  198  git status
+  199  git branch
+  200  touch app.log
+  201  vi app.log
+  202  ls -l
+  203  touch file2
+  204  vi file2
+  205  git status
+  206  ls -la
+  207  touch .gitignore
+  208  vi .gitignore
+  209  git status
+  210  git add .
+  211  git commit -m "file2_git-ignore_added"
+  212  git log --oneline
+  213  git remote -v
+  214  clear
+  215  ls -l
+  216  git ls-files
+  217  git status
+  218  touch file3
+  219  vi file3
+  220  git status
+  221  git add .
+  222  git commit -m "file3-added"
+  223  git log --oneline
+  224  git show ddf5d2e
+  225  git revert ddf5d2e
+  226  git log --oneline
+  227  ls -l
+  228  git ls-files
+  229  git status
+  230  git show c2c84b9
+  231  git log --oneline
+  232  git revert c2c84b9
+  233  git log --oneline
+  234  ls -l
+  235  clear
+  236  git log --oneline
+  237  git reset --hard ddf5d2e
+  238  git log --oneline
+  239  ls -l
+  240  touch file4
+  241  vi file4
+  242  git status
+  243  git add .
+  244  git status
+  245  git restore --staged file4
+  246  git status
+  247  git add .
+  248  git status
+  249  git commit -m "file4-added"
+  250  git status
+  251  git rm --cached file4
+  252  git status
+  253  git ls-files
+  254  git rm --cached .
+  255  git rm --cached -r .
+  256  git status
+  257  git ls-files
+  258  git status
+  259  git add .
+  260  git commit -m "all-commits"
+  261  git ls-files
+  262  git log --oneline
+  263  git branch
+  264  git checkout b1
+  265  git log --oneline
+  266  ls -l
+  267  touch b1_file2
+  268  vi b1_file2
+  269  git status
+  270  ls -l
+  271  git log --oneline
+  272  git branch
+  273  git rebase master
+  274  git log --oneline
+  275  git status
+  276  git log --graph --pretty=oneline
+  277  git checkout master
+  278  git checkout b1
+  279  git branch
+  280  ls -l
+  281  git status
+  282  git add .
+  283  git commit -m "b1_file2-added"
+  284  git checkout master
+  285  ls -l
+  286  touch file5
+  287  vi file5
+  288  git status
+  289  git add .
+  290  git commit -m "file5-added"
+  291  git checkout b1
+  292  got log --oneline
+  293  git log --oneline
+  294  git branch
+  295  git checkout master
+  296  git merge b1 master
+  297  git log --oneline
+  298  git branch
+  299  git checkout b1
+  300  git log --oneline
+  301  git log --graph --pretty=oneline
+  302  git branch
+  303  git rebase master
+  304  git log --oneline
+  305  git log --graph --pretty=oneline
+  306  git checkout master
+  307  git log --graph --pretty=oneline
+  308  history
+  309  git branch
+  310  git merge b1 master
+  311  touch test.txt
+  312  vi test.txt
+  313  git add .
+  314  git commit -m "test-file-added"
+  315  git log --oneline
+  316  git checkout b1
+  317  touch test.txt
+  318  vi test.txt
+  319  git add .
+  320  git commit -m "test-file-added-b1"
+  321  git checkout master
+  322  git merge b1 master
+  323  vi test.txt
+  324  git merge b1 master
+  325  git status
+  326  git log --oneline
+  327  git add .
+  328  git status
+  329  git commit -m "merge-complete"
+  330  git status
+  331  git log --graph --pretty=oneline
+  332  git branch
+  333  git status
+  334  clear
+  335  ls -l
+  336  vi file4
+  337  vi file5
+  338  git status
+  339  git commit -a -m "file5-file5-updated"
+  340  git log --oneline
+  341  vi file4
+  342  vi file5
+  343  git status
+  344  vi file4
+  345  vi file5
+  346  clear
+  347  git status
+  348  git stash list
+  349  git stash
+  350  git stash list
+  351  git status
+  352  git show stash@{0}
+  353  git tash list
+  354  clear
+  355  git stash list
+  356  git stash pop stash@{0}
+  357  git stash list
+  358  git stash
+  359  git stash list
+  360  git stash apply stash@{0}
+  361  git stash list
+  362  git status
+  363  git stash list
+  364  git stash drop stash@{0}
+  365  git stash list
+  366  git status
+  367  git stash -p
+  368  git status
+  369  git log --oneline
+  370  history
