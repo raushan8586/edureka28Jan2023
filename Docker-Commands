@@ -1,6 +1,6 @@
 https://hub.docker.com/
 https://docs.docker.com/
-
+https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 
 
  apt update -y
