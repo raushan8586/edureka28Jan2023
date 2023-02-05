@@ -1,0 +1,11 @@
+ 1  apt update -y
+    2  clear
+    3  docker version
+    4  apt install docker.io -y
+    5  clear
+    6  docker version
+    7  docker pull httpd
+    8  docker images
+    9  clear
+   10  docker images
+   11  history
