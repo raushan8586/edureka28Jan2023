@@ -14,3 +14,55 @@ https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
     9  clear
    10  docker images
    11  history
+   root@ip-172-31-14-174:~/project1# history
+    1  apt update -y
+    2  clear
+    3  docker version
+    4  apt install docker.io -y
+    5  clear
+    6  docker version
+    7  docker pull httpd
+    8  docker images
+    9  clear
+   10  docker images
+   11  history
+   12  docker run -itd -p 82:80 httpd
+   13  docker ps
+   14  docker ps -a
+   15  docker version
+   16  clear
+   17  docker ps
+   18  docker exec -it 15f41510be90 /bin/bash
+   19  cd /
+   20  ls -l
+   21  docker exec -it 15f41510be90 /bin/bash
+   22  docker stats
+   23  docker images
+   24  docker ps
+   25  docker commit 15f41510be90 httpd_new
+   26  docker images
+   27  docker commit 15f41510be90 httpd_new
+   28  docker exec -it 15f41510be90 /bin/bash
+   29  docker images
+   30  docker rmi 798ac0d2883a
+   31  docker images
+   32  ls -l
+   33  cd /root
+   34  ls -l
+   35  mkdir project1
+   36  cd project1/
+   37  touch Dockerfile
+   38  vi Dockerfile
+   39  ls -l
+   40  touch index1.html
+   41  touch index2.html
+   42  vi index1.html
+   43  vi index2.html
+   44  cat Dockerfile
+   45  docker build . -t httpd1
+   46  docker images
+   47  docker run -itd -p 83:80 httpd1
+   48  docker ps
+   49  docker exec -it fcb5bc92a9c2 /bin/bash
+   50  cat Dockerfile
+   51  history
