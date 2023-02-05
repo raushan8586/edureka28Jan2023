@@ -1,4 +1,9 @@
- 1  apt update -y
+https://hub.docker.com/
+https://docs.docker.com/
+
+
+
+ apt update -y
     2  clear
     3  docker version
     4  apt install docker.io -y
