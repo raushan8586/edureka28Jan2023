@@ -126,3 +126,50 @@ https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
    55  docker ps
    56  echo $SHELL
    57  history
+mkdir project1
+   60  cd project1/
+   61  touch docker-compose.yaml
+   62  vi docker-compose.yaml
+   63  docker-compose version
+   64  apt install docker-compose -y
+   65  docker-compose version
+   66  clear
+   67  pwd
+   68  ls -l
+   69  cat docker-compose.yaml
+   70  clear
+   71  ls -l
+   72  docker ps
+   73  docker rm -f 3edb34752c8e
+   74  docker ps
+   75  ls -l
+   76  docker volume ls
+   77  docker network ls
+   78  docker-compose up -d
+   79  docker ps
+   80  pwd
+   81  ls -l
+   82  docker ps
+   83  docker exec -it 8f0305530cd7 /bin/bash
+   84  docker ps
+   85  docker exec -it 247c9a4066df /bin/bash
+   86  docker stats
+   87  docker ps
+   88  docker-compose down
+   89  docker ps
+   90  docker-compose up -d
+   91  docker ps
+   92  docker network ls
+   93  docker inspect f87983510a5a
+   94  docker network ls
+   95  docker volume ls
+   96  find / -name 'project1_db_data'
+   97  cd /var/lib/docker/volumes/project1_db_data
+   98  ls -l
+   99  cd _data
+  100  ls -l
+  101  docker ps
+  102  docker exec -it c099cd676803 /bin/bash
+  103  exit
+  104  docker ps
+  105  history
