@@ -66,3 +66,63 @@ https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
    49  docker exec -it fcb5bc92a9c2 /bin/bash
    50  cat Dockerfile
    51  history
+   
+   11th Feb 2023
+  root@ip-172-31-45-212:/var/lib/docker/volumes/edureka-vol/_data# history
+    1  apt install docker.io -y
+    2  apt update -y
+    3  clear
+    4  apt install docker.io -y
+    5  clear
+    6  docker version
+    7*
+    8  clear
+    9  docker pa
+   10  docker ps
+   11  docker inspect e018ba01de99
+   12  docker network ls
+   13  docker inspect 1924bf1d07ff
+   14  history
+   15  clear
+   16  df -h
+   17  cd /
+   18  ls -l
+   19  clear
+   20  docker volume ls
+   21  docker volume create edureka-vol
+   22  docker volume ls
+   23  docker ps
+   24  docker rm -f e018ba01de99
+   25  docker ps
+   26  docker ps -a
+   27  history
+   28  clear
+   29  docker run -itd -p 82:80 httpd
+   30  docker ps
+   31  docker exec -it 5a5066652e5d /bin/bash
+   32  docker ps
+   33  docker rm -f 5a5066652e5d
+   34  clear
+   35  docker ps
+   36  docker run -it --mount source=edureka-vol,target=/usr/local/apache2/htdocs -d -p 82:80 httpd
+   37  docker ps
+   38  docker volume ls
+   39  docker exec -it df8f7e168c4d /bin/bash
+   40  docker run -it --mount source=edureka-vol,target=/usr/local/apache2/htdocs -d -p 83:80 httpd
+   41  docker ps
+   42  docker exec -it 3edb34752c8e /bin/bash
+   43  docker ps
+   44  docker rm -f df8f7e168c4d
+   45  docker ps
+   46  find / -nama 'edureka-vol'
+   47  find / -name 'edureka-vol'
+   48  cd /var/lib/docker/volumes/edureka-vol
+   49  ls -l
+   50  cd _data
+   51  ls -l
+   52  cp index1.html index2.html
+   53  vi index2.html
+   54  ls -l
+   55  docker ps
+   56  echo $SHELL
+   57  history
