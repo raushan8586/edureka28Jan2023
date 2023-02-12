@@ -1,0 +1,36 @@
+gcloud container clusters create edureka-cluster --num-nodes=2 --zone=us-central1-a
+
+
+304  gcloud container clusters create edureka-cluster --num-nodes=2 --zone=us-central1-a
+  305  clear
+  306  kubectl get namespaces
+  307  kubectl get ns
+  308  kubectl get nodes
+  309  kubectl get nodes -o wide
+  310  clear
+  311  kubectl get all
+  312  kubectl get ns
+  313  kubectl get all -n kube-node-lease
+  314  kubectl get all -n kube-public
+  315  kubectl get all -n kube-system
+  316  ls -l
+  317  cd YAMLs/
+  318  ls -l
+  319  cd ..
+  320  ls -l
+  321  cat nginx-pod.yaml
+  322  ls -l
+  323  touch deployment-example.yaml
+  324  vi deployment-example.yaml
+  325  cat deployment-example.yaml
+  326  kubectl get all
+  327  kubectl apply -f deployment-example.yaml
+  328  kubectl get all
+  329  clear
+  330  kubectl get all
+  331  kubectl get po
+  332  kubectl get rs
+  333  kubectl get deploy
+  334  kubectl get po -o wide
+  335  kubectl describe pod nginx-deploy-84d8f8ff44-46bc2
+  336  history
