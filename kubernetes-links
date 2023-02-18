@@ -1,0 +1,5 @@
+Kubernetes Dashboard
+https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernetese/dashboard-insecure.yml
+
+kubectl apply -f https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernetese/dashboard-insecure.yml
+Open nodeport-access in GCP Firewall rules
