@@ -7,3 +7,6 @@ Open nodeport-access in GCP Firewall rules
 
 Prometheus/Grafana
 https://github.com/raushan8586/DevOps_ClassNotes/tree/master/Kubernetese/Monitoring
+
+Grafana Dashboard --> 6417
+use Promethus as Datasource
