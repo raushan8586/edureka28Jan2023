@@ -3,3 +3,7 @@ https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernete
 
 kubectl apply -f https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernetese/dashboard-insecure.yml
 Open nodeport-access in GCP Firewall rules
+
+
+Prometheus/Grafana
+https://github.com/raushan8586/DevOps_ClassNotes/tree/master/Kubernetese/Monitoring
