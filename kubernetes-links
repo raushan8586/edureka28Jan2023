@@ -10,3 +10,6 @@ https://github.com/raushan8586/DevOps_ClassNotes/tree/master/Kubernetese/Monitor
 
 Grafana Dashboard --> 6417
 use Promethus as Datasource
+
+Docker-Compose
+https://dzlab.github.io/monitoring/2021/12/30/monitoring-stack-docker/
