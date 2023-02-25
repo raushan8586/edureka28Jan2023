@@ -1,1 +1,11 @@
 https://www.jenkins.io/doc/book/installing/linux/
+
+
+sudo visdo
+Add this --> jenkins ALL=(ALL) NOPASSWD: ALL
+save it --> ctrl+o and hit enter
+ctrl+x and hit enter
+
+service jenkins stop
+service jenkins status
+service jenkins start
