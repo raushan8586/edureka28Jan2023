@@ -1,0 +1,10 @@
+https://maven.apache.org/
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+https://mvnrepository.com/
+
+
+44  mvn -version
+   47  clear
+   48  apt install maven -y
+   49  mvn -v
+   50  history
