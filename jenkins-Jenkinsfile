@@ -9,3 +9,7 @@ ctrl+x and hit enter
 service jenkins stop
 service jenkins status
 service jenkins start
+
+Jenkinsfile
+https://www.jenkins.io/doc/book/pipeline/getting-started/
+
