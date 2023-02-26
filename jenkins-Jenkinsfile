@@ -15,3 +15,9 @@ https://www.jenkins.io/doc/book/pipeline/getting-started/
 https://www.jenkins.io/doc/book/pipeline/syntax/
 https://www.jenkins.io/doc/tutorials/#pipeline
 https://github.com/eldada/jenkins-pipeline-kubernetes
+
+
+Docker-Containers-Job
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker build /var/lib/jenkins/workspace/BuildContaineredApp/ -t httpd1
+sudo docker run -itd -p 82:80 httpd1
