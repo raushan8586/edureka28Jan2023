@@ -2,6 +2,8 @@ https://maven.apache.org/
 https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 https://mvnrepository.com/
 
+REPO: https://github.com/raushan8586/MyLab.git
+
 
 44  mvn -version
    47  clear
