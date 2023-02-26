@@ -12,4 +12,5 @@ service jenkins start
 
 Jenkinsfile
 https://www.jenkins.io/doc/book/pipeline/getting-started/
-
+https://www.jenkins.io/doc/book/pipeline/syntax/
+https://www.jenkins.io/doc/tutorials/#pipeline
