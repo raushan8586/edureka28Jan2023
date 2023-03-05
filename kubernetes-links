@@ -13,3 +13,17 @@ use Promethus as Datasource
 
 Docker-Compose
 https://dzlab.github.io/monitoring/2021/12/30/monitoring-stack-docker/
+
+
+Auto-Scaling
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+
+ConfigMap
+https://kubernetes.io/docs/concepts/configuration/configmap/
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
+
+Secrets
+https://kubernetes.io/docs/concepts/configuration/secret/
+
+StatefulSet
+https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
