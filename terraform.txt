@@ -12,3 +12,15 @@ Important links to refer:
 https://www.middlewareinventory.com/blog/category/terraform/
 https://www.middlewareinventory.com/blog/terraform-aws-example-ec2/
 https://www.middlewareinventory.com/blog/aws-blue-green-deployment-and-canary-tests-using-terraform/
+
+
+Commands:
+ 2 terraform init
+   3 clear
+   4 terraform init
+   5 aws configure
+
+   7 terraform plan
+   8 terraform apply
+
+  13 terraform destroy
