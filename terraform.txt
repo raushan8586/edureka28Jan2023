@@ -8,3 +8,7 @@ https://code.visualstudio.com/
 AWS Provider
 https://registry.terraform.io/providers/hashicorp/aws/latest
 
+Important links to refer:
+https://www.middlewareinventory.com/blog/category/terraform/
+https://www.middlewareinventory.com/blog/terraform-aws-example-ec2/
+https://www.middlewareinventory.com/blog/aws-blue-green-deployment-and-canary-tests-using-terraform/
